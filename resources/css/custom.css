@@ -1,0 +1,55 @@
+/* Establece un tamaño por defecto para todas las tarjetas */
+.card {
+    max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+.custom-img {
+    width: 300px; /* Establece el ancho deseado */
+    height: auto; /* Mantén la proporción de aspecto */
+}
+
+/* Estilos para la clase de la carta */
+.custom-card {
+    width: 300px; /* Ancho deseado para cada carta */
+    margin: 10px; /* Espaciado entre las cartas */
+}
+
+/* Estilos para las imágenes dentro de las cartas */
+.custom-card img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantén la proporción de aspecto de la imagen */
+}
+
+/* Estilos para la fila que contiene las cartas */
+.custom-row {
+    display: flex; /* Utiliza Flexbox */
+    flex-wrap: wrap; /* Envuelve las cartas si no caben en una sola línea */
+    justify-content: center; /* Centra las cartas horizontalmente */
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination li {
+    display: inline-block; /* Cambiado de 'inline' a 'inline-block' */
+    margin-right: 5px;
+}
+
+.pagination li a,
+.pagination li span {
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.pagination li.active a,
+.pagination li.active span {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

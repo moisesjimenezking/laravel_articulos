@@ -1,0 +1,56 @@
+.pagination {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.pagination li {
+    display: inline;
+    margin-right: 5px; /* Ajusta el margen entre los elementos si es necesario */
+}
+
+/* Establece un tamaño por defecto para todas las tarjetas */
+.card {
+    max-width: 100px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+.custom-card .card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.custom-card .card-body {
+    background-color: #f9f9f9;
+}
+
+.custom-card .card-title {
+    font-weight: bold;
+}
+
+.custom-card .card-text {
+    color: #666;
+}
+
+.custom-row {
+    margin-top: 30px;
+}
+  
+.pagination .page-link {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+}
+
+.pagination .page-link:hover {
+    background-color: #0056b3;
+}
